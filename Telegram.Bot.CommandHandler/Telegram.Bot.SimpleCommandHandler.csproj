@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Platforms>AnyCPU;x64;x86</Platforms>
+		<Authors>MahdiyarGHD</Authors>
+		<IsPackable>true</IsPackable>
+		<Version>0.0.0.2</Version>
+		<Description>Command handler for telegram bot library.</Description>
+		<Copyright>mahdiyarghannadgh@gmail.com</Copyright>
+		<PackageTags>command handler, commandhandler, telegram.bot, Telegram Bot</PackageTags>
+		<PackageProjectUrl>https://github.com/MahdiyarGHD/Telegram.Bot.SimpleCommandHandler</PackageProjectUrl>
+		<LangVersion>latest</LangVersion>
+		<Title>CommandHandler for Telegram.Bot</Title>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Telegram.Bot" Version="19.0.0">
+		</PackageReference>
+	</ItemGroup>
+</Project>
