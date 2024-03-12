@@ -1,7 +1,9 @@
 # Telegram.Bot command handler
 you can easily handle bot commands via this library.
 
-Samples Usage:
+Main library: https://github.com/TelegramBots/Telegram.Bot
+
+Sample Usage:
 ```csharp
 var botClient = new TelegramBotClient("BOT_TOKEN", httpClient);
 
